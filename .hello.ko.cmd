@@ -1,0 +1,1 @@
+cmd_/home/dasmo/repos/modules/lab4/hello.ko := ccache arm-none-linux-gnueabihf-ld -r -EL -z noexecstack -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/dasmo/repos/modules/lab4/hello.ko /home/dasmo/repos/modules/lab4/hello.o /home/dasmo/repos/modules/lab4/hello.mod.o ;  true
